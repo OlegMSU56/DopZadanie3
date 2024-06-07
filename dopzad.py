@@ -11,7 +11,7 @@ def calculate_structure_sum(data_structure):
         for key, value in data_structure.items():
             symma += calculate_structure_sum(key)  # добавляем значения ключа к сумме при условиях описанных в строке 3 и 5
             symma += calculate_structure_sum(value)  # добавляем значения величины к сумме при условиях описанных в строке 3 и 5
-    return summa
+    return symma
 
 
 
